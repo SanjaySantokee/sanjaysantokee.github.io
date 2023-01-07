@@ -34,22 +34,22 @@ const page = () => (
           All the materials on Sanjay’s Website are provided "as is". Sanjay makes no warranties, may it be expressed or implied, therefore negates all other warranties. Furthermore, Sanjay does not make any representations concerning the accuracy or reliability of the use of the materials on its Website or otherwise relating to such materials or any sites linked to this Website.<br />
           <br />
           4. Limitations<br />
-          Sanjay or its suppliers will not be hold accountable for any damages that will arise with the use or inability to use the materials on Sanjay’s Website, even if Sanjay or an authorize representative of this Website has been notified, orally or written, of the possibility of such damage. Some jurisdiction does not allow limitations on implied warranties or limitations of liability for incidental damages, these limitations may not apply to you.<br />
+          Sanjay will not be hold accountable for any damages that will arise with the use or inability to use the materials on Sanjay’s Website, even if Sanjay or an authorize representative of this Website has been notified, orally or written, of the possibility of such damage. Some jurisdiction does not allow limitations on implied warranties or limitations of liability for incidental damages, these limitations may not apply to you.<br />
           <br />
           5. Revisions and Errata<br />
-          The materials appearing on Sanjay’s Website may include technical, typographical, or photographic errors. Sanjay will not promise that any of the materials in this Website are accurate, complete, or current. Sanjay may change the materials contained on its Website at any time without notice. Sanjay does not make any commitment to update the materials.<br />
+          The materials appearing on Sanjay’s Website may include technical, typographical, or photographic errors. Sanjay may change the materials contained on its Website at any time without notice.<br />
           <br />
           6. Links<br />
-          Sanjay has not reviewed all of the sites linked to its Website and is not responsible for the contents of any such linked site. The presence of any link does not imply endorsement by Sanjay of the site. The use of any linked website is at the user’s own risk.<br />
+          The presence of any link does not imply endorsement by Sanjay of the site. The use of any linked website is at the user’s own risk.<br />
           <br />
           7. Site Terms of Use Modifications<br />
-          Sanjay may revise these Terms of Use for its Website at any time without prior notice. By using this Website, you are agreeing to be bound by the current version of these Terms and Conditions of Use.<br />
+          Sanjay may revise these Terms of Use for the Website at any time without prior notice. By using this Website, you are agreeing to be bound by the current version of these Terms and Conditions of Use.<br />
           <br />
           8. Your Privacy<br />
           Please read our Privacy Policy.<br />
           <br />
           9. Governing Law<br />
-          Any claim related to Sanjay's Website shall be governed by the laws of Germany without regards to its conflict of law provisions.<br />
+          Any claim related to Sanjay's Website shall be governed by the laws of Trinidad and Tobago without regards to its conflict of law provisions.<br />
         </motion.p>
       </motion.div>
     </section>
