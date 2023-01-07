@@ -22,17 +22,14 @@ const About = () => (
         variants={fadeIn('up', 'tween', 0.2, 1)}
         className="mt-[18px] font-normal sm:text-[32px] text-[20px] text-center text-secondary-white"
       >
-        <span className="font-extrabold text-white">Forward-thinking</span> Software Engineer
-        with a background in working effectively in dynamic environments.
-        {' '}
-        <span className="font-extrabold text-white">
-          Critical thinker
-        </span>{' '}
-        with strong problem-solving skills and an interest
-        in expanding knowledge to adapt to scenarios in the workplace.{' '}
-        <span className="font-extrabold text-white"><br /><br />Extroverted</span> team player focused on achieving project objectives
-        with speed and accuracy. Fluent in React, Python, and JavaScript.
-        Experience in AWS, Adobe Creative Cloud, Figma, Blender, and Unity.
+        I'm a
+        <span className="font-extrabold text-white"> creative developer </span>
+        with a few years of experience in building products and appealing web experiences. I've collaborated with individuals and teams to build experiences for Governments and large enterprises. <br /><br />
+        {' '}  Each project is an opportunity to learn new concepts across multiple
+        <span className="font-extrabold text-white"> domains </span>{' '}
+        including arts, maths and physics.{' '} <br /><br /> I specialize in
+        <span className="font-extrabold text-white"> backend development </span> and <span className="font-extrabold text-white"> artificial intelligence </span>
+        with a strong focus on <span className="font-extrabold text-white"> machine learning</span>.
         <br /><br />Let's{' '}
         <span className="font-extrabold text-white">explore</span> some of my work by scrolling down
       </motion.p>

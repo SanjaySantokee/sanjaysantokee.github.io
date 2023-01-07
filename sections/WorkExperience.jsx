@@ -38,6 +38,7 @@ const WorkExperience = () => (
               key={feature}
               title={feature.title}
               imgUrl={feature.imgUrl}
+              employer={feature.employer}
             />
           ))}
         </div>

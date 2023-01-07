@@ -1,6 +1,6 @@
 import styles from '../styles';
 
-const StartSteps = ({ title, imgUrl }) => (
+const StartSteps = ({ title, imgUrl, employer }) => (
   <div className={`${styles.flexCenter} flex-row`}>
     <div
       className={`${styles.flexCenter} w-[70px] h-[70px] rounded-[24px] bg-[#323F5D]`}
@@ -12,6 +12,8 @@ const StartSteps = ({ title, imgUrl }) => (
       </div>
     </div>
     <p className="flex-1 ml-[30px] font-normal text-[18px] text-[#B0B0B0] leading-[32.4px]">
+      <span className="font-extrabold text-white">{employer}</span>
+      <br />
       {title}
     </p>
   </div>

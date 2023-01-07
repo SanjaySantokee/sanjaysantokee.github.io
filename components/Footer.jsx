@@ -1,6 +1,7 @@
 'use client';
 
 import { motion } from 'framer-motion';
+import Link from 'next/link';
 import { socials } from '../constants';
 
 import styles from '../styles';
@@ -39,7 +40,7 @@ const Footer = () => (
             SS
           </h4>
           <p className="font-normal text-[14px] text-white opacity-50">
-            ©2023 Sanjay Santokee, All rights reserved.
+            ©2023 Sanjay Santokee, <Link href="/legal"><u>All rights reserved.</u></Link>
           </p>
 
           <div className="flex gap-4">

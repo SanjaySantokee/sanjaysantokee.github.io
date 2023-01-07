@@ -29,15 +29,18 @@ export const exploreWorlds = [
 export const startingFeatures = [
   {
     imgUrl: '/cl.jpg',
-    title: 'CrimsonLogic Pte Ltd - Software Engineer',
+    employer: 'CrimsonLogic Pte Ltd',
+    title: 'Software Engineer (Present)',
   },
   {
     imgUrl: '/obsydia.jpg',
-    title: 'Obsydia Technologies - Full Stack Engineer',
+    employer: 'Obsydia Technologies',
+    title: 'Full Stack Engineer',
   },
   {
     imgUrl: '/digicel.jpg',
-    title: 'Digicel Group - Software Developer Intern',
+    employer: 'Digicel Group',
+    title: 'Software Developer Intern',
   },
 ];
 
