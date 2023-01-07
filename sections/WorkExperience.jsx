@@ -33,11 +33,11 @@ const WorkExperience = () => (
         <TypingText title="| Work Experience" />
         <TitleText title={<>Where I’ve Worked</>} />
         <div className="mt-[31px] flex flex-col max-w-[370px] gap-[24px]">
-          {startingFeatures.map((feature, index) => (
+          {startingFeatures.map((feature) => (
             <StartSteps
               key={feature}
-              number={`${index < 10 ? '0' : ''} ${startingFeatures.length - index}`}
-              text={feature}
+              title={feature.title}
+              imgUrl={feature.imgUrl}
             />
           ))}
         </div>

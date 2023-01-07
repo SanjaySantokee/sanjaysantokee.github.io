@@ -27,9 +27,18 @@ export const exploreWorlds = [
 ];
 
 export const startingFeatures = [
-  'CrimsonLogic Pte Ltd - Software Engineer',
-  'Obsydia Technologies - Full Stack Engineer',
-  'Digicel Group - Software Developer Intern',
+  {
+    imgUrl: '/cl.jpg',
+    title: 'CrimsonLogic Pte Ltd - Software Engineer',
+  },
+  {
+    imgUrl: '/obsydia.jpg',
+    title: 'Obsydia Technologies - Full Stack Engineer',
+  },
+  {
+    imgUrl: '/digicel.jpg',
+    title: 'Digicel Group - Software Developer Intern',
+  },
 ];
 
 export const newFeatures = [
@@ -51,7 +60,7 @@ export const insights = [
     imgUrl: '/blog.png',
     title: 'The Sanjay Post',
     subtitle:
-        'Creating a Raspberry Pi Attendance Tracker for Universities called Headcounter.',
+        'Implementing a Raspberry Pi Attendance Tracker for Universities called Headcounter.',
     link: 'https://thesanjaypost.wordpress.com/',
   },
   {
@@ -65,7 +74,7 @@ export const insights = [
     imgUrl: '/medium.png',
     title: 'Medium Articles',
     subtitle:
-        'My profile of stories on Medium.',
+        'Posting stories relating to Computing on Medium.',
     link: 'https://medium.com/@sanjaysantokee',
   },
 ];
