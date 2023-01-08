@@ -1,9 +1,11 @@
 import { motion } from 'framer-motion';
 import styles from '../../styles';
 import { fadeIn, staggerContainer } from '../../utils/motion';
+import { Navbar } from '../../components';
 
 const page = () => (
   <div className="bg-primary-black overflow-hidden">
+    <Navbar />
     <section className={`${styles.yPaddings} sm:pl-16 pl-6`}>
       <motion.div
         variants={staggerContainer}

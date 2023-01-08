@@ -2,6 +2,7 @@
 
 import { motion } from 'framer-motion';
 
+import Link from 'next/link';
 import styles from '../styles';
 import { newFeatures } from '../constants';
 import { NewFeatures, TitleText, TypingText } from '../components';
@@ -39,6 +40,27 @@ const Education = () => (
           className="w-[90%] h-[90%] object-contain"
         />
       </motion.div>
+    </motion.div>
+
+    <motion.div
+      variants={fadeIn('right', 'tween', 0.2, 1)}
+      initial="hidden"
+      whileInView="show"
+      viewport={{ once: false, amount: 0.25 }}
+      className={`${styles.innerWidth} mx-auto flex lg:flex-row flex-col gap-8`}
+    >
+      <Link href="/skills">
+        <button type="button" className="flex items-center h-fit py-4 px-6 bg-[#33B8FF] rounded-[32px] gap-[12px]">
+          <img
+            src="/connection.png"
+            alt="connect"
+            className="w-[24px] h-[24px] object-contain"
+          />
+          <span className="font-normal text-[16px] text-white">
+            Skills & Certifications
+          </span>
+        </button>
+      </Link>
     </motion.div>
   </section>
 );
