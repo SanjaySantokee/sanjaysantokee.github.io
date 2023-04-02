@@ -5,6 +5,7 @@ import { motion } from 'framer-motion';
 import Link from 'next/link';
 import styles from '../styles';
 import { navVariants } from '../utils/motion';
+import MenuDropdown from './MenuDropdown';
 
 const Navbar = () => (
   <motion.nav
@@ -23,15 +24,19 @@ const Navbar = () => (
         className="w-[24px] h-[24px] object-contain"
       />
       <Link href="/">
-        <h2 className="font-extrabold text-[20px] leading-[30.24px] text-white">
-          SANJAY SANTOKEE
-        </h2>
+        <div>
+          <h2 className="font-extrabold text-[20px] leading-[30.24px] text-white">
+            SANJAY SANTOKEE
+          </h2>
+        </div>
       </Link>
-      <img
-        src="/menu.svg"
-        alt="menu"
-        className="w-[24px] h-[24px] object-contain"
-      />
+
+      <MenuDropdown />
+      {/* <img */}
+      {/*  src="/menu.svg" */}
+      {/*  alt="menu" */}
+      {/*  className="w-[24px] h-[24px] object-contain" */}
+      {/* /> */}
     </div>
   </motion.nav>
 );

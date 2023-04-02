@@ -1,7 +1,7 @@
 import { motion } from 'framer-motion';
 import styles from '../../styles';
 import { fadeIn, staggerContainer } from '../../utils/motion';
-import { Navbar } from '../../components';
+import { Footer, Navbar } from '../../components';
 
 const page = () => (
   <div className="bg-primary-black overflow-hidden">
@@ -55,6 +55,7 @@ const page = () => (
         </motion.p>
       </motion.div>
     </section>
+    <Footer />
   </div>
 );
 
