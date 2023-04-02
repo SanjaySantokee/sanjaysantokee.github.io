@@ -13,8 +13,10 @@ const gameArrUnsorted = [
   '/games/witcher.png',
 ];
 
+// eslint-disable-next-line no-unused-vars
 function compareRandom(a, b) {
-  return Math.random() - 0.5;
+  if (a) { return Math.random() - 0.5; }
+  if (b) { return Math.random() - 0.5; }
 }
 
 const gameArr = gameArrUnsorted.sort(compareRandom);

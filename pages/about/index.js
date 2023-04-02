@@ -1,7 +1,7 @@
 import { motion } from 'framer-motion';
 import styles from '../../styles';
 import { fadeIn, staggerContainer } from '../../utils/motion';
-import { Footer, Navbar, SingularSkill, TitleText, TypingText } from '../../components';
+import { Footer, Navbar, TitleText, TypingText } from '../../components';
 // import { certifications, skills } from '../../constants';
 // import Certification from '../../components/Certification';
 import Movies from '../../components/Movies';

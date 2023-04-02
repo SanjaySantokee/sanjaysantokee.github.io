@@ -24,8 +24,10 @@ const movieArrUnsorted = [
   'https://cdn.shopify.com/s/files/1/0057/3728/3618/products/d9f6067d2406a7cfbf42a5fc4ae4cd9d_8174831c-db77-4608-9ae2-44aca8f2a6f5_480x.progressive.jpg?v=1573585461',
 ];
 
+// eslint-disable-next-line no-unused-vars
 function compareRandom(a, b) {
-  return Math.random() - 0.5;
+  if (a) { return Math.random() - 0.5; }
+  if (b) { return Math.random() - 0.5; }
 }
 
 const movieArr = movieArrUnsorted.sort(compareRandom);

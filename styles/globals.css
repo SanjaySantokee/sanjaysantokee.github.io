@@ -37,8 +37,8 @@
   position: absolute;
   width: 200px;
   height: 438px;
-  top: 0px;
-  right: 0px;
+  top: 0;
+  right: 0;
 
   background: #7aebfb;
   filter: blur(190px);
@@ -88,8 +88,8 @@
   position: absolute;
   width: 200px;
   height: 316px;
-  left: 0px;
-  top: 0px;
+  left: 0;
+  top: 0;
 
   background: #8d39a3;
   filter: blur(175px);
@@ -111,15 +111,15 @@
 }
 
 .shadow-filter-1 {
-  box-shadow: 0px 0px 30px rgba(255, 0, 0, 0.82);
+  box-shadow: 0 0 30px rgba(255, 0, 0, 0.82);
 }
 
 .shadow-filter-2 {
-  box-shadow: 0px 0px 30px rgba(1, 251, 251, 0.82);
+  box-shadow: 0 0 30px rgba(1, 251, 251, 0.82);
 }
 
 .shadow-filter-3 {
-  box-shadow: 0px 0px 30px rgba(9, 251, 1, 0.82);
+  box-shadow: 0 0 30px rgba(9, 251, 1, 0.82);
 }
 
 @keyframes word {
@@ -250,7 +250,7 @@
   scroll-behavior: smooth
 }
 .con-cards::-webkit-scrollbar {
-  height: 0px;
+  height: 0;
 }
 .con-cards:after {
   content: '';
@@ -287,14 +287,14 @@
 .card h3 {
   position: absolute;
   font-family: 'Oswald', sans-serif;
-  left: 0px;
-  top: 0px;
+  left: 0;
+  top: 0;
   padding: 15px;
 }
 .card i.bx {
   position: absolute;
-  right: 0px;
-  top: 0px;
+  right: 0;
+  top: 0;
   padding: 15px;
   font-size: 1.3rem;
 }

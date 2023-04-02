@@ -32,11 +32,6 @@ const Navbar = () => (
       </Link>
 
       <MenuDropdown />
-      {/* <img */}
-      {/*  src="/menu.svg" */}
-      {/*  alt="menu" */}
-      {/*  className="w-[24px] h-[24px] object-contain" */}
-      {/* /> */}
     </div>
   </motion.nav>
 );
